@@ -1,0 +1,60 @@
+
+
+/* design system */
+:root {
+    --preto: #000000;
+    --cinza: #888888;
+  }
+
+
+
+/* Estilos para o cabeçalho */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--preto);
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+  
+  .search input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .cart-icon {
+    position: relative;
+  }
+  
+  .cart-icon i {
+    font-size: 24px;
+  }
+  
+  .item-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+  }
+  
